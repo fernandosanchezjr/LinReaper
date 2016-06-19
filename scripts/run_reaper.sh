@@ -50,8 +50,8 @@ export WINEDEBUG
 # Underscore prefixed variables are only used in this block to determine the non-underscored ones
 #
 
-ProgramFiles='C:\\Program Files'
-_PROGRAMFILES="$WINEPREFIX/drive_c/Program Files"
+ProgramFiles='C:\\Program Files (x86)'
+_PROGRAMFILES="$WINEPREFIX/drive_c/Program Files (x86)"
 _winsysdir="$WINEPREFIX/drive_c/windows/profiles/$USERNAME/Application Data"
 _PROFILESDIR="$WINEPREFIX/drive_c/windows/profiles"
 _APPDATA="$WINEPREFIX/drive_c/windows/profiles/$USERNAME/Application Data"
